@@ -61,7 +61,7 @@ An interactive Tableau dashboard was built to track **key hospitality KPIs and o
 - Geographic distribution of guests  
 - Interactive filters by hotel type, customer type, meal plan, and reservation status  
 
-🔗 **Tableau Public Dashboard**: *(add your Tableau Public link here)*
+🔗 **Tableau Public Dashboard**: *https://public.tableau.com/views/HotelBookingAnalysis_17215875929250/HotelBookingAnalysis?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link*
 
 ---
 
