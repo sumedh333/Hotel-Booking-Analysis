@@ -56,7 +56,6 @@ https://public.tableau.com/views/HotelBookingAnalysis_17215875929250/HotelBookin
 - **Python** (Pandas, NumPy, Matplotlib)
 - **Jupyter Notebook** for exploratory analysis
 - **Tableau** for interactive dashboards
-- **GitHub** for version control and documentation
 
 ---
 
