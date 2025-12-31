@@ -1,79 +1,66 @@
 # Hotel Booking Analysis – Guest Behavior & Booking Trends
 
-## Project Overview
-This project analyzes hotel booking data to understand **seasonality, customer behavior, cancellations, and key revenue KPIs**.  
-The objective is to extract **actionable insights** to support pricing strategy, capacity planning, and operational decision-making in the hospitality domain.
+## Overview
+Analysis of hotel booking data to understand **seasonal demand patterns, customer behavior, cancellations, and revenue KPIs**, with the objective of supporting **pricing strategy, capacity planning, and operational decision-making** in the hospitality domain.
 
 ---
 
 ## Dataset
 - **Source**: Hotel Booking Demand dataset  
-- **Total Records**: ~63,000 bookings  
+- **Records**: ~63,000 bookings  
 - **Hotel Types**: City Hotel, Resort Hotel  
 
 ---
 
-## Business Questions Addressed
-- How does booking lead time vary across months and seasons?
-- What are the monthly booking patterns for City vs Resort hotels?
-- Which customer segments contribute most to cancellations?
-- How do key KPIs (ADR, Occupancy, RevPAR) behave during peak periods?
+## Analysis Focus
+The analysis examines **monthly demand trends**, **differences between hotel types**, **cancellation behavior across customer segments**, and **key hospitality KPIs** such as ADR and RevPAR.
 
 ---
 
-## Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (Key Findings)
 
-### 1. Average Lead Time by Month
-![Average Lead Time by Month](visuals/lead_time_distribution.png)
-
-**Insight**  
-Booking lead time increases significantly from spring to late summer, peaking between **July and September**, indicating early planning during high-demand periods.
-
----
-
-### 2. Monthly Booking Trend by Hotel Type
+### 1. Monthly Booking Trend by Hotel Type
 ![Monthly Booking Trend](visuals/monthly_booking_trend.png)
 
-**Insight**  
-City hotels consistently generate higher booking volumes. Both hotel types show strong seasonality with peak demand during **summer months**.
+**Insight:**  
+City hotels consistently receive higher booking volumes, while both City and Resort hotels exhibit strong seasonal peaks during summer months.
 
 ---
 
-### 3. Reservation Status by Customer Type
+### 2. Reservation Status by Customer Type
 ![Reservation Status by Customer Type](visuals/reservation_by_customer_type.png)
 
-**Insight**  
-Transient customers account for the majority of cancellations, while contract and group customers show higher booking reliability.
+**Insight:**  
+Transient customers contribute the majority of cancellations, whereas contract and group customers demonstrate higher booking reliability.
 
 ---
 
 ## Tableau Dashboard
-An interactive Tableau dashboard was built to track **key hospitality KPIs and operational metrics**.
+An interactive Tableau dashboard was built to track **core hospitality KPIs and operational metrics**.
 
 ![Tableau Dashboard](visuals/tableau_dashboard.png)
 
-### Dashboard Highlights
-- **Total Bookings**: 63,353  
-- **Average Daily Rate (ADR)**: 106.3  
-- **Occupancy Rate**
-- **Revenue Per Available Room (RevPAR)**: 394.4  
-- Monthly parking demand trends  
-- Geographic distribution of guests  
-- Interactive filters by hotel type, customer type, meal plan, and reservation status  
+**Dashboard Highlights**
+- Total Bookings: 63,353  
+- Average Daily Rate (ADR): 106.3  
+- Revenue Per Available Room (RevPAR): 394.4  
+- Seasonal demand and parking trends  
+- Customer and geographic segmentation with interactive filters  
 
-🔗 **Tableau Public Dashboard**: *https://public.tableau.com/views/HotelBookingAnalysis_17215875929250/HotelBookingAnalysis?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link*
+🔗 **Tableau Public Dashboard**:  
+https://public.tableau.com/views/HotelBookingAnalysis_17215875929250/HotelBookingAnalysis
 
 ---
 
 ## Tools & Technologies
-- **Python**: Pandas, NumPy, Matplotlib
-- **Jupyter Notebook**: Exploratory analysis
-- **Tableau**: Interactive dashboard and KPI visualization
-- **GitHub**: Version control and documentation
+- **Python** (Pandas, NumPy, Matplotlib)
+- **Jupyter Notebook** for exploratory analysis
+- **Tableau** for interactive dashboards
+- **GitHub** for version control and documentation
 
 ---
 
 ## Business Impact
-- Identified peak booking months to support **capacity and pricing strategy**
+- Identified seasonal demand patterns to support **capacity and pricing decisions**
 - Highlighted high-cancellation customer segments for **policy optimization**
-- Enabled **dashboard-driven performance monitoring** for management
+- Enabled **dashboard-driven monitoring** of revenue and occupancy KPIs
